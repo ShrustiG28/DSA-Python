@@ -256,14 +256,64 @@
 # print(arr)
 
 
-arr=input()
-left=0
-right=len(arr)-1
-while left<=right:
-    if arr[left]==arr[right]:
-        print("Palindrome")
-        break
-    left+=1
-    right-=1
-else:
-    print("Not Palindrome")
+# arr=input()
+# left=0
+# right=len(arr)-1
+# while left<=right:
+#     if arr[left]==arr[right]:
+#         print("Palindrome")
+#         break
+#     left+=1
+#     right-=1
+# else:
+#     print("Not Palindrome")
+
+
+#test
+# n=1234
+# print(n%10)
+# print(n//10)
+
+
+#check prime 
+# n = int(input())
+# is_prime = n >= 2
+# for i in range(2, int(n**0.5) + 1):
+#     if n % i == 0:
+#         is_prime = False
+#         break
+# print("Prime" if is_prime else "Not prime")
+
+#largest number in array
+# arr=list(map(int, input().split()))
+# largest=arr[0]
+# for i in range(len(arr)):
+#     if largest<arr[i]:
+#         largest=arr[i]
+# print(largest)
+
+
+#largest element in an array
+# arr=list(map(int, input().split()))
+# max=arr[0]
+# for i in range(len(arr)):
+#     if max<arr[i]:
+#         max=arr[i]
+# print(max)
+
+
+#move zeroes to the end 
+
+# class Solution:
+#     def moveZeroes(self, nums: List[int]) -> None:
+#         k = 0
+
+#         for i in range(len(nums)):
+#             if nums[i] != 0:
+#                 nums[k], nums[i] = nums[i], nums[k]
+#                 k += 1
+
+
+
+
+
